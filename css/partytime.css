@@ -1,0 +1,204 @@
+
+
+/*----------------------------Header Section------------------------------*/
+
+.header {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+}
+
+/*--------------Logo section ------------*/
+#main_logo{
+  width:auto;
+  height: 100px;
+  float: left;
+}
+
+/*--------End of Logo Section-----------*/
+
+
+/*-----------Navigation bar --------*/
+.navbar a {
+  text-decoration: none;
+  //font-size: 13px;
+  color: black;
+}
+
+.navbar ul{
+  text-align: left;
+  list-style:none;
+}
+
+.navbar li{
+  //  display: inline;
+  	margin-top:50px;
+    //padding-left: 10px;
+	  float:left;
+}
+
+.navbar a:hover,input:hover{
+  text-decoration: underline;
+  color:red;
+
+
+
+}
+
+/*--------End of Navigation bar ----------*/
+/*--------Search box --------------*/
+
+form #textbox{
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+}
+
+form #searchbutton{
+  margin-top:2px;
+  float: left;
+}
+
+
+
+
+
+/*--------End of search box------------*/
+/*------Login button-----------*/
+
+#login{
+  margin-top : 70px ;
+  float: right;
+
+}
+
+input{
+
+  float: right;
+  background: black;
+  color:white;
+}
+/*--------End of Login button-----------*/
+
+/*-------------------------------------------------------End of header section -----------------------------------------*/
+
+
+/*----------------------------------------Hero Image Section--------------------------------------------------------------*/
+
+.HeroImage{  border: 2px;
+  border-color: black;
+  border-style: solid;
+  //margin-top:0px;
+  border-radius:5px;
+
+}
+
+
+/*---------------------------------------------------End of Hero Image Section ------------------------------------------*/
+
+/*--------------------h4 heading -------------*/
+h4{
+  margin-left:10px;
+  padding-bottom: 0px;
+  height:20px;
+}
+
+/*----------------End of h4 heading --------------*/
+
+/*-----------------------------------------------------------Three columns-----------------------------------------------*/
+.three_columns{  border: 2px;
+  border-color: black;
+  border-style: solid;
+  margin-top:5px;
+  border-radius:5px;
+}
+.grid_4 p
+{
+  text-align: center;
+}
+
+.grid_4 a
+{
+  text-align: justify;
+  margin-left: 60px;
+
+}
+.more{
+  margin-bottom: 10px;
+}
+
+
+.heading1 strong{
+  border: 1px solid black;
+  border-width: 5px;
+  padding-left: 80px;
+  padding-right: 90px;
+  background-color: black;
+  color:white;
+  border-radius: 50px;
+
+}
+
+#extra{
+  padding-right: 70px;
+}
+
+
+.grid_4 img{
+  border-radius: 30px;
+
+}
+
+/*--------------------------------------End of Three Column-------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------News-----------------------------------------------------*/
+
+.more_news{
+  margin-top: 5px;
+  border: 2px solid black;
+  border-radius:5px;
+
+}
+
+.more_news img{
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+/*----------------------------------------------------End of news -------------------------------------------------------*/
+
+
+/*--------------------------------------------------------Footer Content ------------------------------------------------*/
+.follow {
+  border: 2px solid black;
+  background: black ;
+  height: 100px;
+  color:white;
+  ///margin: 1% 0%;
+  margin-top:5px;
+  border-radius: 10px;
+}
+.footerLinks, .follow p{
+  margin: 0px 0px 2px 2px;
+  color:white;
+}
+.footerLinks a{
+  text-decoration: none;
+}
+.footerLinks img{
+  width: 50px;
+  height: 50px;
+}
+.follow blockquote{
+  letter-spacing: 10px;
+  margin-top: 5px;
+  //text-align: center;
+  margin-left: 10px;
+
+}
+/*--------------------------------------End of Footer Content --------------------------------------------------------*/
